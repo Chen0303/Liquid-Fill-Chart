@@ -1,4 +1,4 @@
-# Water Ball Gauge (Vue 3)
+# LiquidFill Chart (Vue 3)
 A Canvas-based liquid fill gauge built with Vue 3 + TypeScript.
 The water level animates smoothly and changes color dynamically based on percentage.
 
@@ -9,6 +9,9 @@ The water level animates smoothly and changes color dynamically based on percent
     50–75% → Blue (Warning)
     75–100% → Red (Critical)
 - Responsive (auto resize)
+
+📦 Demo
+https://chen0303.github.io/Liquid-Fill-Chart/
 
 📦 Requirements
 Make sure you have the following installed:
