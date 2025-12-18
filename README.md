@@ -1,12 +1,14 @@
 # Water Ball Gauge (Vue 3)
-A Canvas-based liquid fill gauge built with Vue 3 + TypeScript,
-designed for dashboards such as UPS load, power usage, capacity monitoring, etc.
-
+A Canvas-based liquid fill gauge built with Vue 3 + TypeScript.
 The water level animates smoothly and changes color dynamically based on percentage.
 
-- Canvas-based liquid fill gauge
+- Pure Canvas animation (no SVG dependency)
+- Smooth dual-wave animation
 - Dynamic color by percentage
-- Vue 3 + TypeScript
+    0–50% → Green (Normal)
+    50–75% → Blue (Warning)
+    75–100% → Red (Critical)
+- Responsive (auto resize)
 
 📦 Requirements
 Make sure you have the following installed:
@@ -16,6 +18,8 @@ Make sure you have the following installed:
 
 🧩 How to Use the Gauge Component
 ```ts
+import { createWaterBall } from "@/composables/useWaterBall";
+
 createWaterBall(canvas, value)
 ```
 
