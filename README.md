@@ -1,15 +1,23 @@
 # Water Ball Gauge (Vue 3)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-
 ## Features
 - Canvas-based liquid fill gauge
 - Dynamic color by percentage
 - Vue 3 + TypeScript
 
-## Usage
+📦 Requirements
+Make sure you have the following installed:
+1. [Node.js](https://nodejs.org/zh-tw/download)
+
+2. Either npm, pnpm, or yarn
+
+🧩 How to Use the Gauge Component
 ```ts
 createWaterBall(canvas, value)
+```
 
+📦 Build for Production
+
+```ts
+npm run dev
+```
