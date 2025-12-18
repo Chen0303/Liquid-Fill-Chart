@@ -11,6 +11,7 @@ The water level animates smoothly and changes color dynamically based on percent
 - Responsive (auto resize)
 
 📦 Demo
+
 https://chen0303.github.io/Liquid-Fill-Chart/
 
 📦 Requirements
